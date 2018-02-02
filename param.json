@@ -1,0 +1,17 @@
+{
+  "params" : [
+    {"KEY":"状態", "VALUE":"1件のみ募集中"},
+    {"KEY":"値段", "VALUE":"JPY3000~"},
+    {"KEY":"対象", "VALUE":"SNS用イラスト"},
+    {"KEY":"制限", "VALUE":"個人からのイラスト依頼のみ"},
+    {"KEY":"条件", "VALUE":"活動履歴としての表記"},
+    {"KEY":"利用範囲", "VALUE":"犯罪に関わらないもの(R18,宗教,印刷物,再配布,商用はOK)"},
+    {"KEY":"禁止事項", "VALUE":"作者の偽り、再配布"},
+    {"KEY":"他の権利", "VALUE":"移譲可"},
+    {"KEY":"支払い方法", "VALUE":"Amazonギフトカード"},
+    {"KEY":"連絡方法", "VALUE":"（可能であれば）TwitterのDirectMessage"},
+    {"KEY":"Github", "VALUE":"onoie"},
+    {"KEY":"Twitter", "VALUE":"onoie3"},
+    {"KEY":"メール", "VALUE":"onoie3@gmail.com"}
+  ]
+}

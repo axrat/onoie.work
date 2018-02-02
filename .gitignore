@@ -1,0 +1,10 @@
+*.iml
+**/.idea/*
+!**/.idea/runConfigurations
+
+node_modules
+package-lock.json
+bundle/**
+tmp/**
+
+*.pyc

@@ -1,0 +1,30 @@
+box:
+ id: node:latest
+build:
+  steps:
+    - script:
+        name: HelloWorld
+        code: |
+          echo "HelloWorld"
+    - script:
+        code: export NODE_ENV='testing'
+    - npm-install
+#    - npm-test
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+    - script:
+      name: build
+      code: npm run build
+    - script:
+      name: deploy
+      code: |
+        git config --local user.email "risky.totemo@gmail.com"
+        git config --local user.name "TotemoRisky"
+        git checkout --orphan gh-pages
+        rm -rf LICENSE build.js package.json README.md wercker.yml
+        git add -A
+        git commit -m "WerckerDeploy@$(date +'%Y-%m-%d %H:%M:%S.%N')"
+        git push -f --quiet --set-upstream "https://${TOKEN}@github.com/onoie/onoie.work.git" gh-pages 2> /dev/null
