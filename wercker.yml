@@ -24,6 +24,8 @@ build:
         git config --local user.email "risky.totemo@gmail.com"
         git config --local user.name "TotemoRisky"
         git checkout --orphan gh-pages
+        sed -e 's/VERSION//g' .gitignore > .gitignore
+        sed -e 's/index.html//g' .gitignore .gitignore
         rm -rf LICENSE build.js package.json README.md wercker.yml
         git add -A
         git commit -m "WerckerDeploy@$(date +'%Y-%m-%d %H:%M:%S.%N')"
