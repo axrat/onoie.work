@@ -27,4 +27,4 @@ build:
         rm -rf LICENSE build.js package.json README.md wercker.yml
         git add -A
         git commit -m "WerckerDeploy@$(date +'%Y-%m-%d %H:%M:%S.%N')"
-        git push -f --quiet --set-upstream "https://${TOKEN}@github.com/onoie/onoie.work.git" gh-pages 2> /dev/null
+        git push -f --quiet --set-upstream "https://${TOKEN}@github.com/axrat/onoie.work.git" gh-pages 2> /dev/null
