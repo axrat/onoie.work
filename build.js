@@ -22,7 +22,7 @@ function sns_tag(site_name,title,description,url,image){
     +'<meta property="og:url" content="'+url+'">'
     +'<meta property="og:image" content="'+image+'">'
     +'<meta property="og:site_name" content="'+site_name+'">'
-    +'<meta property="og:description" content="'+description+'">';
+    +'<meta property="og:description" content="'+description+' @ '+new Date()+'">';
 }
 function version_script(url){
   return '<div style="font-size: 70%;">VERSION:<span id="version"></span></div>'
