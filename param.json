@@ -1,0 +1,21 @@
+{
+  "params" : [
+    {"KEY":"状態", "VALUE":"<b>相談可</b>"},
+    {"KEY":"制限", "VALUE":"個人からのイラスト依頼のみ"},
+    {"KEY":"値段", "VALUE":"JPY4000~"},
+    {"KEY":"納期", "VALUE":"２週間前後"},
+    {"KEY":"対象", "VALUE":"SNS用イラストPNGファイル+PSDデータファイル"},
+    {"KEY":"リクエスト項目", "VALUE":"キャラ指定/オリキャラ,背景:有り/無し,レイアウト指定"},
+    {"KEY":"リクエスト制限", "VALUE":"上半身しか描けません、成人向けでないもの"},
+    {"KEY":"サイズ", "VALUE":"2024x2024px 解像度:72dpi"},
+    {"KEY":"条件", "VALUE":"活動履歴としての表記"},
+    {"KEY":"作者表記", "VALUE":"不要"},
+    {"KEY":"利用範囲", "VALUE":"犯罪に関わらないもの(R18,宗教,印刷物,再配布,商用利用などはOK)"},
+    {"KEY":"禁止行為", "VALUE":"作者の偽り,公序良俗に反する行為への利用"},
+    {"KEY":"支払い方法", "VALUE":"Amazonギフトカード"},
+    {"KEY":"連絡方法", "VALUE":"（可能であれば）TwitterのDirectMessage"},
+    {"KEY":"Github", "VALUE":"onoie"},
+    {"KEY":"Twitter", "VALUE":"onoie3"},
+    {"KEY":"メール", "VALUE":"onoie3@gmail.com"}
+  ]
+}
